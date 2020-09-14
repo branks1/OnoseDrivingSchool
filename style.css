@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+	font-family: Times New Roman;
+    background-color: rgb(216, 215, 215);
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.logo {
+    color: white;
+}
+.home {
+    border: 1px solid #4D90FE;
+    color: white;
+}
+.home:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+.service {
+    border: 1px solid #4D90FE;
+    color: white;
+}
+.service:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+.about {
+    border: 1px solid #4D90FE;
+    color: white;
+}
+.about:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+.contact {
+    border: 1px solid #4D90FE;
+    color: white;
+}
+.contact:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+}
+.log {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    margin: 0;
+    align-items: center;
+    background-color: rgba(27, 31, 35, 0.85);
+    padding: 9px;
+    font-size: 8px;
+    font-family: monospace;
+    position: fixed;
+    width: 100%;
+}
+.hero {
+    background-image: url('chuttersnap-gts_Eh4g1lk-unsplash.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+section{
+    margin: 0px;
+    padding: 0px;
+}
+.ser {
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 17px;
+}
+.learn {
+    width: 100%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: white;
+    border-bottom: 2px solid #4D90FE;
+    color: white;
+}
+.learn h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.learn p {
+    padding: 1em;
+    text-align: center;
+}
+.learn {
+    background: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-shadow: 0 5px 9px 0 rgb(0, 0, 5);
+            box-shadow: 0 5px 9px 0 rgb(0, 0, 0);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+.learn:hover {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 5);
+            box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0);
+            border-bottom: 2px solid red;
+  }
+.experienced {
+    width: 100%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: white;
+    border-bottom: 2px solid #4D90FE;
+    color: white;
+}
+.experienced h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.experienced p {
+    padding: 1em;
+    text-align: center;
+}
+.experienced {
+    background: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-shadow: 0 5px 9px 0 rgb(0, 0, 5);
+            box-shadow: 0 5px 9px 0 rgb(0, 0, 0);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+  
+.experienced:hover {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 5);
+            box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0);
+            border-bottom: 2px solid red;
+}
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    padding: 3rem;
+}
+.container p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tailored {
+    width: 100%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: white;
+    border-bottom: 2px solid #4D90FE;
+    color: white;
+}
+.tailored h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.tailored p {
+    padding: 1em;
+    text-align: center;
+}
+.tailored {
+    background: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-shadow: 0 5px 9px 0 rgb(0, 0, 5);
+            box-shadow: 0 5px 9px 0 rgb(0, 0, 0);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+  
+.tailored:hover {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 5);
+            box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0);
+            border-bottom: 2px solid red;
+}
+.defensive {
+    width: 100%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: white;
+    border-bottom: 2px solid #4D90FE;
+    color: white;
+}
+.defensive h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.defensive p {
+    padding: 1em;
+    text-align: center;
+}
+.defensive {
+    background: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-shadow: 0 5px 9px 0 rgb(0, 0, 5);
+            box-shadow: 0 5px 9px 0 rgb(0, 0, 0);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+  
+.defensive:hover {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 5);
+            box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0);
+            border-bottom: 2px solid red;
+}
+.text-wel {
+	text-align: center;
+}
+.fees h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.fees p {
+    padding: 1em;
+    text-align: center;
+}
+.fees {
+    width: 80%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background-color: black;
+    border-bottom: 2px solid red;
+    color: white;
+}
+.available {
+    width: 80%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: black;
+    border-bottom: 2px solid red;
+    color: white;
+}
+.available h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.available p {
+    padding: 1em;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    padding: 3rem;
+}
+.container p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vehicle h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.vehicle p {
+    padding: 1em;
+    text-align: center;
+}
+.vehicle {
+    width: 80%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: black;
+    border-bottom: 2px solid red;
+    color: white;
+}
+.experienced-2 h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.experienced-2 p {
+    padding: 1em;
+    text-align: center;
+}
+.experienced-2 {
+    width: 80%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: black;
+    border-bottom: 2px solid red;
+    color: white;
+}
+.safety h3 {
+    text-align: center;
+    padding: 0.5em 1em;
+}
+.safety p {
+    padding: 1em;
+    text-align: center;
+}
+.safety {
+    width: 80%;
+    margin: 1em auto;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 50, 0.5);
+    background: black;
+    border-bottom: 2px solid red;
+    color: white;
+}
+.testimonials {
+	background-color: var(--botox);
+	margin-bottom: 50px;
+}
+.test-header {
+	text-align: center;
+	font-weight: bold;
+}
+.test-img img {
+	height: 250px;
+	display: block;
+	width: 200px;
+	border: 3px solid yellow;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 1em; 
+}
+.test-text i {
+	width: 100%;
+}
+.test-name {
+	float: right;
+	margin-top: 1em;
+}
+.testimonials-item {
+	align-items: center;
+	width: 90%;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.her {
+    background-image: url('hayden-walker-fgpg3KzFrQY-unsplash.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+h3{
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+.testimonials-items {
+	align-items: center;
+	width: 98%;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.abt {
+    background-image: url('gustavo-alves-YOXSC4zRcxw-unsplash.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+.con {
+    background-image: url('you-x-ventures-Oalh2MojUuk-unsplash.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+.servicess {
+	font-family: Times New Roman;
+}
+.serv-header {
+	text-align: center;
+	font-weight: bold;
+}
+.serv-text i {
+	width: 100%;
+}
+.servicess-item {
+	align-items: center;
+	width: 90%;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background-color: black;
+	overflow: hidden;
+	color: white;
+	width: 100%;
+	height: 150px;
+}	
+.footer-text {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: black;
+	color: red;
+	font-size: 13px;
+}
+@media (min-width: 1200px) {
+	.wrapper {
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+    header {
+        font-size: 13px;;
+    }
+	.testimonials {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr;
+	}
+	.servicess {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr;
+	}
+	.her {
+    background-image: url('hayden-walker-fgpg3KzFrQY-unsplash (2).jpg');
+    background-size: cover;
+    height: 500px;
+	}
+	.abt {
+		background-image: url('gustavo-alves-YOXSC4zRcxw-unsplash (2) .jpg');
+		background-size: cover;
+		height: 500px;
+	}
+	
+}
